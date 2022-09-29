@@ -27,7 +27,7 @@ export function Modal({registrationInfo}: IModalProps) {
 
             <div className={styles.info_container}>
                 <h2 className={styles.info_title}>Birthday:</h2>
-                <p className={styles.info_text}>{registrationInfo.personalInfo.firstName}</p>
+                <p className={styles.info_text}>{registrationInfo.personalInfo.birthday}</p>
             </div>
 
             <div className={styles.info_container}>
