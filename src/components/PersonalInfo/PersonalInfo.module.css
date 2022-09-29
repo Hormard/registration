@@ -1,0 +1,64 @@
+.container {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.label {
+    margin: 0 auto;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.input {
+    padding-left: 4px;
+    border: 2px solid #2a5a70;
+    border-radius: 15%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.input:focus {
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.radio_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_radio {
+    margin-right: 10px;
+}
+
+.checkbox_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.error {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+
+.buttons {
+    margin-bottom: 100px;
+}
+
+.button {
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    background-color: #2a5a70;
+    font-family: 'Oswald', sans-serif;
+    color: azure;
+    border-radius: 15%;
+    transition: all 1s;
+}
+
+.button:hover {
+    background-color: black;
+}

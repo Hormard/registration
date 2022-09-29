@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.label {
+    margin: 0 auto;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.input {
+    padding-left: 4px;
+    border: 2px solid #2a5a70;
+    border-radius: 15%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.input:focus {
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.clue {
+    padding-top: 4px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.285);
+}
+
+.button {
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    background-color: #2a5a70;
+    font-family: 'Oswald', sans-serif;
+    color: azure;
+    border-radius: 15%;
+    transition: all 1s;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.error {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+
+@media (max-width: 321px) {
+    .button {
+        margin-bottom: 70px;
+    }
+}

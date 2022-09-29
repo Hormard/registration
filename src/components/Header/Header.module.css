@@ -1,0 +1,19 @@
+.container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 0 15px 0;
+    background-color: #2a5a70;
+}
+
+.title {
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: azure;
+}
